@@ -1,0 +1,87 @@
+body {
+    background-color: gray;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    color: rgb(0, 0, 0);
+    font-size: 1.5em;
+    padding: 15px;
+}
+
+img {
+    border: solid 3px;
+    padding: 10px;
+    max-width: 20%;
+    height: auto;
+    border-radius: 20px;
+}
+
+#titulo {
+    font-size: 3em;
+    padding: 15px;
+    color: rgb(0, 0, 0);
+}
+
+#subtitulo {
+    font-size: 1.2em;
+    color: rgb(0, 0, 0);
+    
+    width: auto;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+#nav {
+    background-color: rgb(0, 255, 255);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.boton {
+    color: white;
+    background-color: rgb(33, 97, 235);
+    margin: 10px;
+    padding: 10px 20px;
+    border-radius: 10px;
+    text-align: center;
+    min-width: 120px;
+}
+
+#miFormulario {
+    margin-top: 1em;
+}
+
+#footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 0.1em;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    
+}
+
+
+@media (max-width: 480px) {
+    h1 {
+        font-size: 1.2em;
+    }
+
+    img {
+        padding: 5px;
+    }
+
+    #titulo,
+    #subtitulo {
+        font-size: 1em;
+    }
+
+    .boton {
+        padding: 8px 15px;
+        margin: 5px;
+    }
+}
